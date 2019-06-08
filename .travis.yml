@@ -1,0 +1,18 @@
+
+env:
+  global:
+    - OWNER=SAMET
+    - UPLOAD_FILE=website.zip
+
+before_install:
+  - echo "[BEFORE INSTALL]"
+  - pip3 install mkdocs mkdocs-material pygments pymdown-extensions
+
+script:
+  - echo "[SCRIPT]" 
+  - mkdocs build
+  - zip $UPLOAD_FILE site -r
+  - 'curl -X POST -H "Content-Type: application/zip" -H "Authorization: Bearer $NETLIFY_TOKEN" --data-binary @$UPLOAD_FILE https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys'
+
+after_success:
+  - echo "[AFTER INSTALL]"
