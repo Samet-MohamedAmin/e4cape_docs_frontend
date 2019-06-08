@@ -1,7 +1,7 @@
 site_name: e4cape docs 
 site_url: 'http://example.com'
-repo_url: 'https://github.com/username/projecturlongithub'
-edit_uri: edit/master
+repo_url: 'https://github.com/Samet-MohamedAmin/e4cape_docs_frontend'
+edit_uri: edit/master/docs
 site_description: 'A simple desc here.'
 # google_analytics: ['UA-xxxxxxxxx-x', 'example.com']
 extra:
@@ -17,8 +17,8 @@ theme:
   name: 'material'
   language: fr
   palette:
-    primary: indigo
-    accent: indigo
+    primary: brown
+    accent: deep-orange
   feature:
     tabs: true
 copyright:
