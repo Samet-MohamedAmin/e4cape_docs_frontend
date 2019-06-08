@@ -1,12 +1,14 @@
 site_name: e4cape docs 
-site_url: 'http://example.com'
+site_url: 'http://4c.netlify.com'
 repo_url: 'https://github.com/Samet-MohamedAmin/e4cape_docs_frontend'
 edit_uri: edit/master/docs
 site_description: 'A simple desc here.'
 # google_analytics: ['UA-xxxxxxxxx-x', 'example.com']
 extra:
-# favicon: 'https://example/favicon.png'
+  favicon: 'https://4c.netlify.com/assets/favicon.png'
   social:
+    - type: 'globe'
+      link: 'http://4c.netlify.com'
     - type: 'github'
       link: 'https://github.com/xxxxxx'
     - type: 'facebook'
