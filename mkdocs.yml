@@ -1,0 +1,38 @@
+site_name: e4cape docs 
+site_url: 'http://example.com'
+repo_url: 'https://github.com/username/projecturlongithub'
+edit_uri: edit/master
+site_description: 'A simple desc here.'
+# google_analytics: ['UA-xxxxxxxxx-x', 'example.com']
+extra:
+# favicon: 'https://example/favicon.png'
+  social:
+    - type: 'github'
+      link: 'https://github.com/xxxxxx'
+    - type: 'facebook'
+      link: 'https://facebook.com/xxxxxxx'
+    - type: 'twitter'
+      link: 'https://twitter.com/xxxxxxx'
+theme:
+  name: 'material'
+  language: fr
+  palette:
+    primary: indigo
+    accent: indigo
+  feature:
+    tabs: true
+copyright:
+  4C INSAT
+markdown_extensions:
+    - admonition
+    - codehilite
+    - toc:
+        permalink: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.critic
+    - pymdownx.mark
+    - pymdownx.progressbar
+    - pymdownx.superfences
+    - pymdownx.inlinehilite
+
